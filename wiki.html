@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!--CABEÇALHO = INTRODUZ ALGO-->
+        <h1>Estudo do html</h1>
+        <h3>Conceitos introdutórios</h3>
+        <nav>
+            <!-- Agrupa Links de navegação-->
+            <ol>
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <!-- Conteúdo principal da página-->
+        <section>
+            <!--Separa tópicos /conteúdos-->
+            <h3>Uso de tags</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur tenetur velit tempora porro aut ad veniam ducimus
+                animi maxime omnis!
+                Officiis et eius molestiae dolore doloribus, aliquid fugiat assumenda nulla.
+            </p>
+        </section>
+
+        <section>
+            <h3>Uso de tabelas</h3>
+            <table border="1" cellpadding="3" style="border-collapse: collapse">
+                <thead>
+                    <!--CABEÇALHO da tabela-->
+
+                    <tr>
+                        <th colspan="4">Usuários</th>
+                        <!--colspan = duração da coluna -->
+                    </tr>
+
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Nome</th> <!-- Table Header (colunas)-->
+                        <th>CPF</th>
+                        <th>Data Nasc</th>
+                    </tr> <!-- Table row (títulos)-->
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!-- rowspan vai expandir (duração da linha)-->
+                        <td rowspan="2">Funcionário</td>
+                        <td>José Almir</td> <!-- Table Data (dados da tabela)-->
+                        <td>000.000.000</td>
+                        <td>26/06/1999</td>
+                    </tr>
+
+                    <tr>
+                        <td>Maria Aparecida</td> <!-- Table Data-->
+                        <td>000.000.000</td>
+                        <td>27/01/1978</td>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2">Cliente</td>
+                        <td>Carlos José</td> <!-- Table Data-->
+                        <td>000.000.000</td>
+                        <td>01/01/1993</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carlos José</td> <!-- Table Data-->
+                        <td>000.000.000</td>
+                        <td>01/01/1993</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+    <hr /> <!--  linha Horizontal-->
+    <footer>
+        <!-- Dá informações sobre autoria/encerra o conteúdo-->
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+    </footer>
+</body>
+
+</html>
