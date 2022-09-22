@@ -1,0 +1,49 @@
+
+/*
+Para usar o css tenho que linkar ele no html destino
+*/
+
+p{
+    color:green;
+    font-size: 20px;
+    text-decoration: underline; /*sumblinhado*/
+
+}
+
+body{
+    background-color: aqua;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+/*
+
+Tipos de seletor básico
+por elemento
+por id(#) => estiliza unica
+por class(.) => estilização p/ varios
+
+*/
+
+#meu-h1{
+    font-weight: 200;
+    font-family: monospace;
+}
+
+.cabecalho{
+
+    color:brown;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 16px;
+}
+
+.banner {
+    width: 50%;
+    border-radius: 16px;
+}
